@@ -1,0 +1,99 @@
+
+            body {
+            
+                font-family: 'Playfair Display', serif;
+                background-image:url('download.png');
+                background-size: cover;
+                font-size: 17px;
+            }
+
+            nav {
+
+            width: 100%;
+            display: flex;
+            position: fixed;
+            background-color: black;
+            z-index: 99;
+            
+            top: 0;
+
+            }
+
+            nav a {
+
+            color: #fff;
+            margin: auto 50px auto 100px;
+            
+            
+
+            }
+
+            .container-fluid {
+                
+                width: 800px !important;
+                font-size:22px;
+	            padding-top:60px;
+	            padding-bottom:25px;
+
+            
+            }
+
+            h4 {
+            
+                display: block;
+                margin-block-start: 1.33em;
+                 margin-block-end: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+
+            .container-fluid2 {
+                
+               width: 350px !important;
+                height: 950px;
+                float: left;
+                font-size: 21px;
+                margin-left:60px;
+                padding:10px;
+            }
+            .imagem_footer{
+
+                width: 100%;
+                height: auto;
+                margin: 30%;
+            }
+
+            section {
+            
+                padding-top: 85px;
+                padding-bottom: 85px;
+           
+            }
+            
+            .arrowUp{
+
+                margin-left: 95%;
+
+            }
+            
+            .loggin{
+
+                margin-left: 95%;
+                top: 0px;
+            }
+
+            dialog{
+
+                width: 200px;
+                height: 200x;
+                
+            }
+
+           
+            @media only screen and (max-width: 360px) {
+
+                .float{float : none; width: 100%;}
+                nav{display: none;}
+                .ajustes{display: none;}
+                
+            }
